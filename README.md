@@ -88,7 +88,19 @@ Using multiple anomaly detection techniques improves system reliability by:
 ---
 
 ## 📸 Demo
-(Add screenshots of your Streamlit dashboard here)
+The following screenshots demonstrate the end-to-end workflow of the FitPulse system:
+
+### 🔹 Dashboard & Data Ingestion
+![Dashboard](ss1.png)
+
+### 🔹 Historical Trends & Forecasting
+![Forecasting](ss2.png)
+
+### 🔹 Anomaly Detection Results
+![Anomaly Detection](ss3.png)
+
+### 🔹 Data Intelligence & Feature Insights
+![Feature Insights](ss4.png)
 
 ---
 
@@ -102,17 +114,29 @@ Using multiple anomaly detection techniques improves system reliability by:
 
 ## ⚙️ How to Run
 
-1. Clone the repository  
-   git clone https://github.com/NishmaGosetty/fitpulse-health-anomaly-detection-ml  
+1. Clone the repository
 
-2. Navigate to the project folder  
-   cd fitpulse-health-anomaly-detection-ml  
+```
+   git clone https://github.com/NishmaGosetty/fitpulse-health-anomaly-detection-ml
+```
 
-3. Install dependencies  
-   pip install -r requirements.txt  
+3. Navigate to the project folder
+   
+```
+   cd fitpulse-health-anomaly-detection-ml
+```  
 
-4. Run the application  
-   streamlit run health_anomaly_detection_pipeline.py  
+5. Install dependencies
+
+```
+   pip install -r requirements.txt
+```  
+
+7. Run the application
+
+```
+   streamlit run health_anomaly_detection_pipeline.py
+``` 
 
 ---
 
