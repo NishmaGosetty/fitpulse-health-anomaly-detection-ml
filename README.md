@@ -1,26 +1,37 @@
-# FitPulse – Health Anomaly Detection from Fitness Devices
+# 🏃 FitPulse – Health Anomaly Detection System
 
-FitPulse is an industry-oriented fitness data analytics pipeline designed to process time-series data from wearable fitness devices.  
-The system performs data ingestion, preprocessing, feature extraction, trend forecasting, and anomaly detection using multiple techniques.
+## 🚀 Overview
+FitPulse is an end-to-end machine learning pipeline for analyzing fitness device data and detecting health anomalies.
 
-The project follows a modular, production-style architecture and is implemented as an interactive **Streamlit application** featuring a unified dashboard for real-time data analysis, anomaly monitoring, and visualization.
+Built as an interactive Streamlit application, it enables users to upload time-series data, visualize trends, forecast behavior, and identify anomalies through a unified dashboard.
 
----
-
-## Key Features
-
-- CSV and JSON file ingestion
-- Data cleaning, validation, and time alignment
-- Time-series feature extraction using **TSFresh**
-- Trend forecasting using rolling statistics
-- Multi-method anomaly detection
-- Interactive visualizations and performance metrics
-- Unified Streamlit dashboard with user interactivity
-- Accessible and consistent UI design for better user experience
+This project simulates a real-world health monitoring system used in wearable technology and preventive healthcare.
 
 ---
 
-## Milestones Covered
+## 🧩 System Architecture
+1. Data Ingestion (CSV/JSON)  
+2. Data Preprocessing & Cleaning  
+3. Feature Extraction (TSFresh)  
+4. Trend Forecasting  
+5. Multi-method Anomaly Detection  
+6. Visualization via Streamlit Dashboard  
+
+---
+
+## 🧠 Key Features
+- CSV and JSON file ingestion  
+- Data cleaning, validation, and time alignment  
+- Time-series feature extraction using **TSFresh**  
+- Trend forecasting using rolling statistics  
+- Multi-method anomaly detection  
+- Interactive visualizations and performance metrics  
+- Unified Streamlit dashboard with user interactivity  
+- Accessible and consistent UI design for better user experience  
+
+---
+
+## 📌 Milestones Covered
 
 ### Milestone 1 – Data Preprocessing
 - File upload and schema validation  
@@ -37,9 +48,9 @@ The project follows a modular, production-style architecture and is implemented 
 - Threshold-based anomaly detection  
 - Statistical anomaly detection using Z-score  
 - Trend deviation-based detection  
-- Reduction of false positives through multi-method validation
+- Reduction of false positives through multi-method validation  
 
- ### Milestone 4 – Interactive Dashboard & Visualization
+### Milestone 4 – Interactive Dashboard & Visualization
 - Development of a unified, interactive Streamlit dashboard  
 - Real-time visualization of trends, forecasts, and detected anomalies  
 - User-controlled filters and interactive components for data exploration  
@@ -47,11 +58,9 @@ The project follows a modular, production-style architecture and is implemented 
 - Accessibility-focused design ensuring clear text visibility and readable charts  
 - Performance metrics and summary insights for quick decision-making  
 
-
 ---
 
-## Why Multiple Detection Methods?
-
+## ❓ Why Multiple Detection Methods?
 Using multiple anomaly detection techniques improves system reliability by:
 - Capturing different types of anomaly patterns  
 - Reducing false positives and false negatives  
@@ -59,7 +68,7 @@ Using multiple anomaly detection techniques improves system reliability by:
 
 ---
 
-## Supported Data Formats
+## 📊 Supported Data Formats
 
 | Data Type   | Required Columns |
 |------------|------------------|
@@ -69,8 +78,7 @@ Using multiple anomaly detection techniques improves system reliability by:
 
 ---
 
-## Tech Stack
-
+## 🛠️ Tech Stack
 - Python  
 - Streamlit  
 - Pandas, NumPy  
@@ -79,13 +87,39 @@ Using multiple anomaly detection techniques improves system reliability by:
 
 ---
 
-## Dashboard Highlights
-- Clean and minimal UI with consistent styling  
-- Interactive charts for trends and anomalies  
-- Clear visual distinction between normal and anomalous data points  
-- Designed for usability, accessibility, and professional presentation  
+## 📸 Demo
+(Add screenshots of your Streamlit dashboard here)
 
-## How to Run the Application
+---
 
-```bash
-streamlit run health_anomaly_detection_pipeline.py
+## 🌍 Real-World Applications
+- Wearable health monitoring systems  
+- Early detection of abnormal heart rate patterns  
+- Fitness analytics platforms  
+- Preventive healthcare solutions  
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository  
+   git clone https://github.com/NishmaGosetty/fitpulse-health-anomaly-detection-ml  
+
+2. Navigate to the project folder  
+   cd fitpulse-health-anomaly-detection-ml  
+
+3. Install dependencies  
+   pip install -r requirements.txt  
+
+4. Run the application  
+   streamlit run health_anomaly_detection_pipeline.py  
+
+---
+
+## 📌 Project Status
+Completed core pipeline with dashboard. Future enhancements planned for real-time integration and deployment.
+
+---
+
+## 👩‍💻 Author
+Nishma Gosetty
